@@ -32,6 +32,8 @@ export interface WatermarkProps extends PropsWithChildren {
 const Watermark: FC<WatermarkProps> = (props) => {
   console.log("props", props);
 
+  console.log("test plugin");
+
   const {
     className,
     style,
